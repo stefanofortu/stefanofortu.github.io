@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>Click on the picture below to download the software:<p>
+<head>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<a href="/software/TC_tool.exe" download="TC_tool.exe">
-  <img src="/image/test_new.png" alt="test" width="142" height="142">
-</a> 
- 
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+</head>
+<body>
+
+<h1>TC tools</h1>
+
+<img src="/image/test_new.png" alt="software icon" width="142" height="142">
+
+<h3>Offical release</h3>
+<button class="btn" font-size=10px><i class="fa fa-download"></i> Download</button>
+
+<h3>Beta Release</h3>
+<button class="btn" style="font-size: 16px;" ><i class="fa fa-download"></i> Download</button>
+
 </body>
 </html>
+
